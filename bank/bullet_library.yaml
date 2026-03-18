@@ -1,0 +1,121 @@
+{
+  "bullets": [
+    {
+      "id": "plat_b1",
+      "project_id": "software_platform",
+      "text": "Built multi-source ingestion and transformation workflows to support reliable downstream analytics and operations.",
+      "families": ["software", "data"],
+      "tags": ["python", "sql", "data-eng"],
+      "priority": 4,
+      "evidence_refs": ["platform_ingestion"]
+    },
+    {
+      "id": "plat_b2",
+      "project_id": "software_platform",
+      "text": "Added validation gates, anomaly checks, and reconciliation logic to improve output quality before reporting use.",
+      "families": ["software", "data", "ai"],
+      "tags": ["validation", "data-eng", "monitoring"],
+      "priority": 5,
+      "evidence_refs": ["platform_validation"]
+    },
+    {
+      "id": "plat_b3",
+      "project_id": "software_platform",
+      "text": "Implemented monitoring and troubleshooting paths for recurring operational workflows in a small engineering environment.",
+      "families": ["software", "data"],
+      "tags": ["monitoring", "prod"],
+      "priority": 3,
+      "evidence_refs": ["platform_monitoring"]
+    },
+    {
+      "id": "plat_b4",
+      "project_id": "software_platform",
+      "text": "Worked across requirements, implementation, testing, and support to deliver maintainable internal tooling.",
+      "families": ["software", "data", "ai"],
+      "tags": ["delivery", "prod"],
+      "priority": 3,
+      "evidence_refs": ["platform_delivery"]
+    },
+    {
+      "id": "analytics_b1",
+      "project_id": "analytics_product",
+      "text": "Produced clear tables, metrics, and narrative outputs to support non-technical stakeholders and operational decisions.",
+      "families": ["data"],
+      "tags": ["analytics", "reporting"],
+      "priority": 4,
+      "evidence_refs": ["analytics_tables"]
+    },
+    {
+      "id": "analytics_b2",
+      "project_id": "analytics_product",
+      "text": "Maintained recurring reporting logic with documented transformation rules and audit-friendly output structures.",
+      "families": ["data", "software"],
+      "tags": ["reporting", "validation"],
+      "priority": 4,
+      "evidence_refs": ["analytics_reporting"]
+    },
+    {
+      "id": "analytics_b3",
+      "project_id": "analytics_product",
+      "text": "Focused on data quality, consistency, and issue detection across multi-source datasets.",
+      "families": ["data"],
+      "tags": ["validation", "data-eng"],
+      "priority": 4,
+      "evidence_refs": ["analytics_quality"]
+    },
+    {
+      "id": "auto_b1",
+      "project_id": "automation",
+      "text": "Built repeatable workflows with explicit output contracts and validation checkpoints for more reliable delivery.",
+      "families": ["ai", "software", "data"],
+      "tags": ["automation", "validation", "llm"],
+      "priority": 5,
+      "evidence_refs": ["automation_contracts"]
+    },
+    {
+      "id": "auto_b2",
+      "project_id": "automation",
+      "text": "Documented runbooks and delivery conventions to make iterative workflows easier to reproduce and debug.",
+      "families": ["ai", "software", "data"],
+      "tags": ["automation", "monitoring"],
+      "priority": 3,
+      "evidence_refs": ["automation_docs"]
+    },
+    {
+      "id": "auto_b3",
+      "project_id": "automation",
+      "text": "Reduced manual rework through structured outputs, clearer traceability, and stronger review steps.",
+      "families": ["ai", "software", "data"],
+      "tags": ["automation", "quality"],
+      "priority": 3,
+      "evidence_refs": ["automation_quality"]
+    },
+    {
+      "id": "quant_b1",
+      "project_id": "quant_system",
+      "text": "Built a modular backtesting and signal-evaluation workflow for systematic research.",
+      "families": ["quant", "software"],
+      "tags": ["quant", "python", "validation"],
+      "priority": 4,
+      "evidence_refs": ["quant_backtest"]
+    },
+    {
+      "id": "quant_b2",
+      "project_id": "quant_system",
+      "text": "Added validation checks, scenario testing, and risk-aware controls for more trustworthy analysis.",
+      "families": ["quant", "data"],
+      "tags": ["quant", "validation", "risk"],
+      "priority": 4,
+      "evidence_refs": ["quant_validation"]
+    },
+    {
+      "id": "quant_b3",
+      "project_id": "quant_system",
+      "text": "Tracked health, diagnostics, and workflow outputs to support iterative model improvement.",
+      "families": ["quant", "software"],
+      "tags": ["quant", "monitoring"],
+      "priority": 3,
+      "evidence_refs": ["quant_monitoring"]
+    }
+  ]
+}

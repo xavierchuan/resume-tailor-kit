@@ -1,0 +1,17 @@
+Acme Data
+Junior Data Analyst
+Remote
+
+We are hiring a junior data analyst to support reporting, dashboarding, data quality checks, and recurring commercial analysis.
+
+Requirements
+- Basic SQL skills
+- Excel for data analysis and reporting
+- Understanding of ETL and data preparation
+- Attention to detail and willingness to learn
+- Ability to communicate findings clearly
+
+Nice to have
+- Python for data analysis or automation
+- BigQuery or cloud data platform exposure
+- Git and documentation awareness

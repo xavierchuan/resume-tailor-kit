@@ -1,0 +1,41 @@
+{
+  "projects": {
+    "software_platform": {
+      "name": "Internal Operations Platform",
+      "stack": "Python, SQL, APIs, Docker, Linux",
+      "facts": {
+        "platform_ingestion": "Built data ingestion and transformation workflows across multiple internal sources.",
+        "platform_validation": "Added validation gates, anomaly checks, and reconciliation steps before downstream reporting.",
+        "platform_monitoring": "Implemented monitoring and troubleshooting paths for recurring operational workflows.",
+        "platform_delivery": "Worked from requirements through implementation, testing, and support in a small engineering environment."
+      }
+    },
+    "analytics_product": {
+      "name": "Analytics Reporting Product",
+      "stack": "SQL, Excel, dashboards, reporting workflows",
+      "facts": {
+        "analytics_tables": "Produced clear tables, metrics, and narrative outputs to support non-technical stakeholders.",
+        "analytics_reporting": "Maintained recurring reporting logic with documented transformation rules and audit-friendly outputs.",
+        "analytics_quality": "Focused on data quality, consistency, and issue detection across multi-source datasets."
+      }
+    },
+    "automation": {
+      "name": "Workflow Automation Toolkit",
+      "stack": "Python, structured pipelines, output contracts",
+      "facts": {
+        "automation_contracts": "Built repeatable workflows with explicit output contracts and validation checkpoints.",
+        "automation_docs": "Documented runbooks and delivery conventions to make iterations easier to reproduce and debug.",
+        "automation_quality": "Reduced manual rework through structured outputs, clearer traceability, and stronger review steps."
+      }
+    },
+    "quant_system": {
+      "name": "Systematic Research Framework",
+      "stack": "Python, backtesting, validation, monitoring",
+      "facts": {
+        "quant_backtest": "Built a modular backtesting and signal-evaluation workflow for systematic research.",
+        "quant_validation": "Added validation checks, scenario testing, and risk-aware controls for more trustworthy analysis.",
+        "quant_monitoring": "Tracked health, diagnostics, and workflow outputs to support iterative model improvement."
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "fallback_block_id": "software_core_v1",
+  "blocks": [
+    {
+      "id": "quant_core_v1",
+      "families": ["quant"],
+      "required_domain_tags": [],
+      "items": [
+        "Programming: Python, SQL, Bash",
+        "Quant: backtesting, signal evaluation, risk-aware workflows",
+        "Validation: scenario testing, reproducible analysis, auditability",
+        "Ops: monitoring, diagnostics, iterative improvement"
+      ]
+    },
+    {
+      "id": "ai_core_v1",
+      "families": ["ai"],
+      "required_domain_tags": [],
+      "items": [
+        "Programming: Python, SQL, JavaScript/TypeScript",
+        "GenAI/LLM: structured outputs, prompt workflows, evaluation loops",
+        "Delivery: validation gates, reliability checks, production-minded iteration",
+        "Ops: Git, Linux, monitoring and troubleshooting"
+      ]
+    },
+    {
+      "id": "data_core_v1",
+      "families": ["data"],
+      "required_domain_tags": [],
+      "items": [
+        "Programming: Python, SQL",
+        "Data: ETL patterns, validation, reporting workflows, analytical delivery",
+        "Platform: APIs, structured datasets, reproducible pipelines",
+        "Ops: audit trails, monitoring, QA gates"
+      ]
+    },
+    {
+      "id": "software_core_v1",
+      "families": ["software"],
+      "required_domain_tags": [],
+      "items": [
+        "Programming: Python, SQL, JavaScript/TypeScript",
+        "Engineering: modular architecture, APIs, testing, reliability controls",
+        "Platform: Git, Linux, Docker",
+        "Ops: monitoring and diagnostics"
+      ]
+    }
+  ]
+}

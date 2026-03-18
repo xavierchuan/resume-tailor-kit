@@ -1,0 +1,58 @@
+{
+  "candidate_name": "Sample Candidate",
+  "header": {
+    "location": "London, UK",
+    "availability": "Available to work remotely or hybrid",
+    "email": "sample@example.com",
+    "phone": "+44 7000 000000",
+    "github": "https://github.com/example",
+    "linkedin": "https://linkedin.com/in/example"
+  },
+  "education": [
+    {
+      "institution": "Example University",
+      "degree": "MSc Data Science",
+      "start": "Sep 2024",
+      "end": "Sep 2025"
+    },
+    {
+      "institution": "Example University",
+      "degree": "BSc Computer Science",
+      "start": "Sep 2020",
+      "end": "Jul 2024"
+    }
+  ],
+  "project_bullet_targets": [4, 3, 2],
+  "project_orders": {
+    "quant.tex": ["quant_system", "software_platform", "automation"],
+    "ai.tex": ["automation", "analytics_product", "software_platform"],
+    "software.tex": ["software_platform", "analytics_product", "automation"],
+    "default": ["software_platform", "analytics_product", "automation"]
+  },
+  "profile_snippets": {
+    "quant": [
+      "Early-career quantitative developer profile with strong Python and systematic research foundations.",
+      "Experienced in backtesting, validation workflows, and risk-aware engineering.",
+      "Builds maintainable systems that connect analysis, controls, and repeatable execution.",
+      "Work authorization: replace this with your own status."
+    ],
+    "ai": [
+      "Applied AI engineer profile with Python-based delivery across orchestration, validation, and automation workflows.",
+      "Strong in structured outputs, quality gates, and production-oriented system design.",
+      "Comfortable turning ambiguous requirements into reliable tools with measurable outcomes.",
+      "Work authorization: replace this with your own status."
+    ],
+    "data": [
+      "Data analyst profile with strong Python and SQL foundations for data preparation, validation, and reporting delivery.",
+      "Experienced in multi-source data workflows, anomaly checks, and structured outputs for operational use.",
+      "Comfortable collaborating with engineers and non-technical stakeholders in quality-sensitive environments.",
+      "Work authorization: replace this with your own status."
+    ],
+    "software": [
+      "Software engineer profile focused on backend reliability, data-intensive workflows, and maintainable delivery.",
+      "Strong in Python engineering, modular system design, and quality-aware implementation.",
+      "Comfortable in fast-paced environments with high ownership and iterative delivery.",
+      "Work authorization: replace this with your own status."
+    ]
+  }
+}
