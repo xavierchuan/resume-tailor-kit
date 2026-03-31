@@ -30,6 +30,7 @@
       "items": [
         "Programming: Python, SQL",
         "Data: ETL patterns, validation, reporting workflows, analytical delivery",
+        "Analytics: Excel, KPI tracking, stakeholder-ready reporting",
         "Platform: APIs, structured datasets, reproducible pipelines",
         "Ops: audit trails, monitoring, QA gates"
       ]

@@ -16,7 +16,8 @@
       "facts": {
         "analytics_tables": "Produced clear tables, metrics, and narrative outputs to support non-technical stakeholders.",
         "analytics_reporting": "Maintained recurring reporting logic with documented transformation rules and audit-friendly outputs.",
-        "analytics_quality": "Focused on data quality, consistency, and issue detection across multi-source datasets."
+        "analytics_quality": "Focused on data quality, consistency, and issue detection across multi-source datasets.",
+        "analytics_sql": "Queried and reshaped operational datasets in SQL to support recurring KPI analysis and reporting handoffs."
       }
     },
     "automation": {
@@ -25,7 +26,8 @@
       "facts": {
         "automation_contracts": "Built repeatable workflows with explicit output contracts and validation checkpoints.",
         "automation_docs": "Documented runbooks and delivery conventions to make iterations easier to reproduce and debug.",
-        "automation_quality": "Reduced manual rework through structured outputs, clearer traceability, and stronger review steps."
+        "automation_quality": "Reduced manual rework through structured outputs, clearer traceability, and stronger review steps.",
+        "automation_reporting": "Automated spreadsheet-to-report handoffs and reduced repetitive manual preparation for recurring updates."
       }
     },
     "quant_system": {

@@ -64,6 +64,15 @@
       "evidence_refs": ["analytics_quality"]
     },
     {
+      "id": "analytics_b4",
+      "project_id": "analytics_product",
+      "text": "Queried and reshaped operational datasets in SQL to support recurring KPI analysis and reporting handoffs.",
+      "families": ["data"],
+      "tags": ["sql", "analytics", "reporting"],
+      "priority": 4,
+      "evidence_refs": ["analytics_sql"]
+    },
+    {
       "id": "auto_b1",
       "project_id": "automation",
       "text": "Built repeatable workflows with explicit output contracts and validation checkpoints for more reliable delivery.",
@@ -89,6 +98,15 @@
       "tags": ["automation", "quality"],
       "priority": 3,
       "evidence_refs": ["automation_quality"]
+    },
+    {
+      "id": "auto_b4",
+      "project_id": "automation",
+      "text": "Automated spreadsheet-to-report handoffs and reduced repetitive manual preparation for recurring updates.",
+      "families": ["data", "software", "ai"],
+      "tags": ["automation", "reporting", "excel"],
+      "priority": 4,
+      "evidence_refs": ["automation_reporting"]
     },
     {
       "id": "quant_b1",

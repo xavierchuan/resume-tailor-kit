@@ -3,6 +3,9 @@ __pycache__/
 tmp/
 out/
 .build/
+bank/*
+!bank/.gitkeep
+!bank/README.md
 .DS_Store
 *.log
 *.aux

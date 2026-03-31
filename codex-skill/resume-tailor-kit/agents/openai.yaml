@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume Tailor Kit"
+  short_description: "Tailor grounded one-page resumes for AI, data, software, and quant-adjacent roles with archetype-aware routing"
+  default_prompt: "Use the resume-tailor-kit skill in this repository to turn a JD plus a local bank into a grounded LaTeX resume draft with archetype-aware routing and QA for AI, data, software, or quant-adjacent roles."

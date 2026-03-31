@@ -22,7 +22,7 @@
       "end": "Jul 2024"
     }
   ],
-  "project_bullet_targets": [4, 3, 2],
+  "project_bullet_targets": [4, 4, 3],
   "project_orders": {
     "quant.tex": ["quant_system", "software_platform", "automation"],
     "ai.tex": ["automation", "analytics_product", "software_platform"],
@@ -44,8 +44,10 @@
     ],
     "data": [
       "Data analyst profile with strong Python and SQL foundations for data preparation, validation, and reporting delivery.",
+      "Comfortable translating messy operational data into KPI views, exception reports, and documented outputs.",
       "Experienced in multi-source data workflows, anomaly checks, and structured outputs for operational use.",
       "Comfortable collaborating with engineers and non-technical stakeholders in quality-sensitive environments.",
+      "Able to support recurring analysis, reporting handoffs, and traceable operational decision-making.",
       "Work authorization: replace this with your own status."
     ],
     "software": [

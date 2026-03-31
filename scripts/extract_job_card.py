@@ -8,6 +8,8 @@ import sys
 from pathlib import Path
 from typing import Iterable
 
+from routing import detect_archetype
+
 
 ROLE_HINTS = (
     "engineer",
@@ -96,6 +98,17 @@ def _extract_role(lines: list[str]) -> str:
 
 def _detect_family(text: str, role: str) -> str:
     corpus = f"{text} {role}".lower()
+    role_lower = role.lower()
+    strong_role_overrides = [
+        ("data", ("data scientist", "data analyst", "data engineer", "analytics engineer")),
+        ("ai", ("applied ai", "ai engineer", "machine learning engineer", "ml engineer")),
+        ("quant", ("quant", "quantitative developer", "quant developer", "quant researcher", "trader")),
+        ("software", ("backend engineer", "platform engineer", "software engineer", "full stack", "full-stack", "developer")),
+    ]
+    for family, phrases in strong_role_overrides:
+        if any(phrase in role_lower for phrase in phrases):
+            return family
+
     quant_terms = [
         "quant",
         "trader",
@@ -123,6 +136,9 @@ def _detect_family(text: str, role: str) -> str:
         "etl",
         "warehouse",
         "analytics",
+        "statistics",
+        "feature engineering",
+        "ab testing",
         "snowflake",
         "bigquery",
         "dbt",
@@ -262,6 +278,7 @@ def build_job_card(text: str) -> dict:
     company = _extract_company(text, lines)
     role = _extract_role(lines)
     family = _detect_family(text, role)
+    archetype = detect_archetype(text, role, family)
     seniority = _detect_seniority(text)
     must_have, nice_to_have = _extract_requirement_lists(lines)
     domain_keywords = _extract_domain_keywords(text)
@@ -271,6 +288,7 @@ def build_job_card(text: str) -> dict:
         "company": company,
         "role": role,
         "family": family,
+        "archetype": archetype,
         "seniority": seniority,
         "must_have": must_have,
         "nice_to_have": nice_to_have,
